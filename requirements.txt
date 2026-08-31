@@ -1,5 +1,6 @@
 # Python 3.12 local environment for non-DQN notebooks
 jupyterlab>=4.0,<5
+ipympl>=0.10,<1
 matplotlib>=3.8,<4
 numpy>=1.26,<3
 
