@@ -1,0 +1,51 @@
+{
+  "generation_mode": "Built-in image_gen",
+  "purpose": "Identical representative case illustrations connect Lectures 01-2 and 02-1.",
+  "images": [
+    {
+      "case_id": "case-a",
+      "filename": "case_a_clock.png",
+      "saved_paths": [
+        "01-2_decision_variables_objective_constraints/assets/case_a_clock.png",
+        "02-1_problem_formulation/assets/case_a_clock.png"
+      ],
+      "prompt": "Use case: scientific-educational.\nAsset type: representative case illustration shared by two introductory optimization lecture notebooks, displayed 570 pixels wide.\nStyle/medium: polished friendly editorial illustration, clean rounded objects, subtle hand-painted texture, fine navy outlines, very gentle dimensional shading. White background, uncluttered, generous clear margins, landscape 3:2 composition. Blue highlights for chosen controls, teal for calm/comfortable details, warm neutral materials. Objects should be immediately recognizable without engineering background. One cohesive scene, no large heading, no equations, no charts, no watermark, no brand logos, no Korean. All specified text must be correctly spelled in a large readable sans-serif. Do not add other text. Intended as one of five visually consistent textbook illustrations.\nPrimary request: Show a simple digital classroom clock next to a trusted reference clock on a plain desk. The blue classroom clock displays exactly '09:59'; the smaller neutral reference clock displays exactly '10:00'. Beside the classroom clock is a small blue adjustment dial with plus and minus signs, making it clear a time correction can be chosen. Include just three unobtrusive English labels, 'Classroom clock', 'Reference clock', 'Correction', near the relevant objects. No numerical correction value is specified. Both screens clearly readable; no people. The scene communicates adjusting an incorrect displayed time using a reference."
+    },
+    {
+      "case_id": "case-b",
+      "filename": "case_b_advertising.png",
+      "saved_paths": [
+        "01-2_decision_variables_objective_constraints/assets/case_b_advertising.png",
+        "02-1_problem_formulation/assets/case_b_advertising.png"
+      ],
+      "prompt": "Use case: scientific-educational.\nAsset type: representative case illustration shared by two introductory optimization lecture notebooks, displayed 570 pixels wide.\nStyle/medium: polished friendly editorial illustration, clean rounded objects, subtle hand-painted texture, fine navy outlines, very gentle dimensional shading. White background, uncluttered, generous clear margins, landscape 3:2 composition. Blue highlights for chosen controls, teal for calm/comfortable details, warm neutral materials. Objects should be immediately recognizable without engineering background. One cohesive scene, no large heading, no equations, no charts, no watermark, no brand logos, no Korean. All specified text must be correctly spelled in a large readable sans-serif. Do not add other text. Intended as one of five visually consistent textbook illustrations.\nPrimary request: Illustrate a student club dividing a small advertising budget between social-media ads and printed flyers. On a desk a simple budget envelope marked 'Budget' sits between a smartphone showing a generic announcement and a small stack of paper flyers showing the same abstract announcement. Two neat blue arrows extend from the envelope toward these two channels. Smartphone label 'Social media'; paper-stack label 'Flyers'. The announcement is just a picture of a megaphone and abstract graphic shapes, no other text. No money amounts, no real apps, no logos, no people. The scene communicates one budget and two spending decisions."
+    },
+    {
+      "case_id": "case-c",
+      "filename": "case_c_snacks.png",
+      "saved_paths": [
+        "01-2_decision_variables_objective_constraints/assets/case_c_snacks.png",
+        "02-1_problem_formulation/assets/case_c_snacks.png"
+      ],
+      "prompt": "Use case: scientific-educational.\nAsset type: representative case illustration shared by two introductory optimization lecture notebooks, displayed 570 pixels wide.\nStyle/medium: polished friendly editorial illustration, clean rounded objects, subtle hand-painted texture, fine navy outlines, very gentle dimensional shading. White background, uncluttered, generous clear margins, landscape 3:2 composition. Blue highlights for chosen controls, teal for calm/comfortable details, warm neutral materials. Objects should be immediately recognizable without engineering background. One cohesive scene, no large heading, no equations, no charts, no watermark, no brand logos, no Korean. All specified text must be correctly spelled in a large readable sans-serif. Do not add other text. Intended as one of five visually consistent textbook illustrations.\nPrimary request: Illustrate ordering snacks for a school event, with whole snack boxes and loose fruit sold by weight. On a plain serving table, show two closed kraft snack boxes and one open kraft box containing neatly arranged simple snack portions, alongside a bowl of loose fruit on a compact blue kitchen weighing scale. A few pieces of fruit beside the bowl reinforce buying by weight. Labels are only 'Snack boxes' near boxes and 'Fruit by weight' near the scale. The scale screen reads only 'kg' with no numeric value. No price tags, no claimed exact portions, no people. Make countable whole packages versus a weighable amount instantly understandable."
+    },
+    {
+      "case_id": "case-d",
+      "filename": "case_d_study.png",
+      "saved_paths": [
+        "01-2_decision_variables_objective_constraints/assets/case_d_study.png",
+        "02-1_problem_formulation/assets/case_d_study.png"
+      ],
+      "prompt": "Use case: scientific-educational.\nAsset type: representative case illustration shared by two introductory optimization lecture notebooks, displayed 570 pixels wide.\nStyle/medium: polished friendly editorial illustration, clean rounded objects, subtle hand-painted texture, fine navy outlines, very gentle dimensional shading. White background, uncluttered, generous clear margins, landscape 3:2 composition. Blue highlights for chosen controls, teal for calm/comfortable details, warm neutral materials. Objects should be immediately recognizable without engineering background. One cohesive scene, no large heading, no equations, no charts, no watermark, no brand logos, no Korean. All specified text must be correctly spelled in a large readable sans-serif. Do not add other text. Intended as one of five visually consistent textbook illustrations.\nPrimary request: Illustrate dividing a limited amount of study time between mathematics and writing. A clean student desk with a blue mathematics notebook labeled 'Math', showing a few simple geometric shapes, and a blue writing notebook labeled 'Writing', with a pen and a few abstract ruled lines. Between them is a small tabletop clock and a simple blank weekly-planner card whose only text is 'Up to 4 hours'. No actual time allocations, no pie chart, no equations, no grades, no other objects, no people. The image should make two subjects sharing limited study time obvious."
+    },
+    {
+      "case_id": "case-e",
+      "filename": "case_e_classroom.png",
+      "saved_paths": [
+        "01-2_decision_variables_objective_constraints/assets/case_e_classroom.png",
+        "02-1_problem_formulation/assets/case_e_classroom.png"
+      ],
+      "prompt": "Use case: scientific-educational.\nAsset type: representative case illustration shared by two introductory optimization lecture notebooks, displayed 570 pixels wide.\nStyle/medium: polished friendly editorial illustration, clean rounded objects, subtle hand-painted texture, fine navy outlines, very gentle dimensional shading. White background, uncluttered, generous clear margins, landscape 3:2 composition. Blue highlights for chosen controls, teal for calm/comfortable details, warm neutral materials. Objects should be immediately recognizable without engineering background. One cohesive scene, no large heading, no equations, no charts, no watermark, no brand logos, no Korean. All specified text must be correctly spelled in a large readable sans-serif. Do not add other text. Intended as one of five visually consistent textbook illustrations.\nPrimary request: Illustrate the familiar classroom cooling case under uncertain outdoor weather. A small cutaway classroom scene with several desks, a few simply drawn seated students, a wall-mounted air conditioner with restrained blue cooling airflow, and a window. In the foreground a simple blue cooling controller has two unlabeled dials with the short labels 'Early' and 'Late' below them. Above the outdoor side of the window, three small separate weather cards are arranged evenly, labeled exactly '29 °C', '31 °C', and '33 °C', each with a simple sun or partly cloudy icon. These are alternative outdoor scenarios, not indoor readings. Keep the cards outside the room. No indoor temperature setpoint shown, no formulas, no complex HVAC components, no other text. The scene communicates two cooling decisions for the same classroom with several possible outdoor temperatures."
+    }
+  ]
+}
