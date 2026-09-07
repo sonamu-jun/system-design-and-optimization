@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title description">
+  <title id="title">Three lectures develop one classroom optimization problem</title>
+  <desc id="description">Lecture 01-1 builds the system model, Lecture 01-2 identifies the decision parts, and Lecture 02-1 translates them into standard mathematical form.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#26364d"/>
+    </marker>
+    <style>
+      .heading { font: 700 34px Arial, sans-serif; fill: #26364d; }
+      .boxheading { font: 700 27px Arial, sans-serif; }
+      .blue { fill: #2f7bc7; }
+      .teal { fill: #16877c; }
+      .purple { fill: #7351a3; }
+      .formula { font: 600 30px Arial, sans-serif; fill: #26364d; }
+      .body { font: 25px Arial, sans-serif; fill: #5f6f84; }
+      .footer { font: 700 22px Arial, sans-serif; fill: #26364d; }
+    </style>
+  </defs>
+  <rect width="1500" height="520" fill="#fbfcfe"/>
+  <text x="750" y="62" text-anchor="middle" class="heading">ONE CLASSROOM PROBLEM · THREE LEVELS OF PRECISION</text>
+
+  <rect x="55" y="120" width="390" height="270" rx="28" fill="#e8f2ff" stroke="#2f7bc7" stroke-width="5"/>
+  <text x="250" y="175" text-anchor="middle" class="boxheading blue">01-1 · SYSTEM MODEL</text>
+  <text x="250" y="245" text-anchor="middle" class="formula">u → T = F(T, inputs, u)</text>
+  <text x="250" y="305" text-anchor="middle" class="body">Predict the temperature path</text>
+  <text x="250" y="345" text-anchor="middle" class="body">and raw performance</text>
+
+  <line x1="460" y1="255" x2="515" y2="255" stroke="#26364d" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="555" y="120" width="390" height="270" rx="28" fill="#e8f8f5" stroke="#1b9e91" stroke-width="5"/>
+  <text x="750" y="175" text-anchor="middle" class="boxheading teal">01-2 · DECISION PARTS</text>
+  <text x="750" y="245" text-anchor="middle" class="formula">u · D, E · J · limits</text>
+  <text x="750" y="305" text-anchor="middle" class="body">Name each role and follow</text>
+  <text x="750" y="345" text-anchor="middle" class="body">the evaluation order</text>
+
+  <line x1="960" y1="255" x2="1015" y2="255" stroke="#26364d" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="1055" y="120" width="390" height="270" rx="28" fill="#f3edfb" stroke="#805bb3" stroke-width="5"/>
+  <text x="1250" y="175" text-anchor="middle" class="boxheading purple">02-1 · STANDARD FORM</text>
+  <text x="1250" y="232" text-anchor="middle" class="formula">x → y = Sim(x)</text>
+  <text x="1250" y="285" text-anchor="middle" class="formula">min f(y)</text>
+  <text x="1250" y="335" text-anchor="middle" class="body">g(x,y) &#8804; 0 · h(x,y) = 0</text>
+
+  <rect x="250" y="432" width="1000" height="60" rx="24" fill="#eef1f5" stroke="#cbd3dd" stroke-width="2"/>
+  <text x="750" y="472" text-anchor="middle" class="footer">The physical meaning stays fixed while the notation becomes reusable.</text>
+</svg>
