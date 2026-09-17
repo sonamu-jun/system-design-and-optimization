@@ -96,26 +96,3 @@ where $\theta$ is the angle between their directions. The result lies between $-
 | $-1$ | Opposite directions: $180^\circ$ |
 
 Cosine similarity is undefined if either vector is zero, because the denominator is then zero.
-
-## 5 · Check the calculation
-
-Keep $𝕩=(3,2)^{\mathsf T}$ fixed. Compare it with the reversed vector $-𝕩=(-3,-2)^{\mathsf T}$.
-
-1. Calculate $𝕩^{\mathsf T}(-𝕩)$.
-2. Find their cosine similarity. What does the sign mean?
-
-**Solution.**
-
-1. Multiply matching components and add:
-
-$$
-𝕩^{\mathsf T}(-𝕩)=3(-3)+2(-2)=-13.
-$$
-
-2. Both vectors have length $\sqrt{3^2+2^2}=\sqrt{13}$. Dividing by the lengths gives
-
-$$
-\operatorname{cosSim}(𝕩,-𝕩)=\frac{-13}{\sqrt{13}\sqrt{13}}=-1.
-$$
-
-Here the value $-1$ means exactly opposite directions. Reversing the vector changes its direction but keeps its length.

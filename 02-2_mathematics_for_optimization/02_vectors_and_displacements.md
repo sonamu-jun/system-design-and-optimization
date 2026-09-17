@@ -107,21 +107,3 @@ For any scalar $\alpha$, the same rule gives $\alpha𝕕=(\alpha,-\alpha)^{\math
 | $1/2$ | $\frac12𝕕=(1/2,-1/2)^{\mathsf T}$ | Half the size |
 | $-1$ | $-𝕕=(-1,1)^{\mathsf T}$ | Reversed direction |
 | $0$ | $0𝕕=𝟘$ | Zero vector |
-
-## 6 · Check the calculation
-
-Keep $P=(3,2)$ fixed. Change only the first coordinate of $Q$ from 4 to 5, so $Q=(5,1)$.
-
-1. Find the relative vector from $P$ to $Q$.
-2. If you reverse the subtraction, which way does the vector point?
-
-**Solution.**
-
-1. Subtract the starting position from the ending position:
-
-$$
-\overrightarrow{PQ}=\begin{bmatrix}5-3\\1-2\end{bmatrix}
-=\begin{bmatrix}2\\-1\end{bmatrix}.
-$$
-
-2. Reversing the subtraction gives $(3-5,2-1)^{\mathsf T}=(-2,1)^{\mathsf T}$. This vector points from $Q$ to $P$.

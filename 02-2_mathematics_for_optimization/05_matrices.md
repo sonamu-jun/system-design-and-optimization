@@ -67,39 +67,3 @@ $$
 I_2=\begin{bmatrix}1&0\\0&1\end{bmatrix},
 \qquad I_2𝕩=𝕩.
 $$
-
-## 4 · Reading vector inequalities
-
-Suppose each output has an upper limit. Collect the limits in $𝕓=(10,5,2)^{\mathsf T}$. The notation $A𝕩\le𝕓$ compares matching components. For our matrix, it requires all three inequalities:
-
-$$
-2x_1+x_2\le10,\qquad 3x_2\le5,\qquad x_1-x_2\le2.
-$$
-
-At the original input $𝕩=(3,2)^{\mathsf T}$, we calculated $A𝕩=(8,6,1)^{\mathsf T}$:
-
-| Component | Comparison | Satisfied? |
-|:---|:---|:---|
-| First | $8\le10$ | Yes |
-| Second | $6\le5$ | No |
-| Third | $1\le2$ | Yes |
-
-The vector inequality is false because the second component exceeds its limit. **Every component must satisfy its own inequality.** A vector equality, such as $A𝕩=𝕓$, similarly requires equality in every component.
-
-## 5 · Check the calculation
-
-Keep $A$ and $𝕓=(10,5,2)^{\mathsf T}$ fixed. Change only the first component of $𝕩$ from 3 to 4, so $𝕩=(4,2)^{\mathsf T}$.
-
-1. Calculate $A𝕩$.
-2. Which output exceeds its limit?
-
-**Solution.**
-
-1. Use the same row calculations with the new first component:
-
-$$
-A𝕩=\begin{bmatrix}2(4)+1(2)\\0(4)+3(2)\\1(4)-1(2)\end{bmatrix}
-=\begin{bmatrix}10\\6\\2\end{bmatrix}.
-$$
-
-2. The second output exceeds its limit: $6>5$. The other comparisons, $10\le10$ and $2\le2$, hold. One failed comparison makes $A𝕩\le𝕓$ false. The second output stays at 6 because it depends only on $x_2$, which is still 2.

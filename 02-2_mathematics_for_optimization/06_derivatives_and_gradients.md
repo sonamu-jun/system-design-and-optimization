@@ -144,29 +144,3 @@ $$
 $$
 
 At $𝕩=(3,2)^{\mathsf T}$, $\ell(𝕩)=1$ and its gradient is $(-1,1)^{\mathsf T}$. Increasing $x_1$ a little decreases that value; increasing $x_2$ a little increases it. The signs describe the local effect of each input.
-
-## 7 · Check the calculation
-
-Change only the first component of $𝕩$ from 3 to 4, keeping $x_2=2$. Use $f(𝕩)=𝕩^{\mathsf T}𝕩=x_1^2+x_2^2$.
-
-1. When differentiating with respect to $x_1$, which term is constant?
-2. Find the gradients of $f$ and $\frac12f$ at $𝕩=(4,2)^{\mathsf T}$.
-
-**Solution.**
-
-1. Hold $x_2=2$ fixed. The term $x_2^2=4$ is constant, so its derivative with respect to $x_1$ is zero.
-2. Differentiate each component while holding the other fixed. This gives
-
-$$
-\nabla f(4,2)=\begin{bmatrix}2(4)\\2(2)\end{bmatrix}
-=\begin{bmatrix}8\\4\end{bmatrix},
-$$
-
-$$
-\nabla_{𝕩}\!\left(\frac12f(𝕩)\right)
-=\frac12\begin{bmatrix}8\\4\end{bmatrix}
-=\begin{bmatrix}4\\2\end{bmatrix}
-\quad\text{at }𝕩=(4,2)^{\mathsf T}.
-$$
-
-Multiplying the function by $1/2$ halves each partial derivative. Thus the two gradients are $2𝕩$ and $𝕩$.

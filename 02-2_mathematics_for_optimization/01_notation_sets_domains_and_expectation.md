@@ -122,20 +122,3 @@ $$
 $$
 
 Variance has squared units; standard deviation has the same units as $X$.
-
-## 6 · Check the calculation
-
-Change only the last observation in $0,4,4,4$ from 4 to 0. Keep the distribution above fixed.
-
-1. Find the new sample mean.
-2. Does the expectation change? Explain briefly.
-
-**Solution.**
-
-1. The observations are now $0,4,4,0$, so the sample mean is
-
-$$
-\bar z=\frac{0+4+4+0}{4}=2.
-$$
-
-2. The expectation stays at $\mathbb E[X]=1$. The distribution's values and probabilities have not changed. Only the observations used for the sample mean have changed.
