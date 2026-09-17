@@ -1,4 +1,4 @@
-# 02-2 · Part 4: Matrices
+# Matrices
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }

@@ -1,4 +1,4 @@
-# 02-2 · Part 3: Norms and Distance
+# Norms and Distance
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }

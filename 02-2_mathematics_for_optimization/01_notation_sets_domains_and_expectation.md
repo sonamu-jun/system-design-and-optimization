@@ -1,4 +1,4 @@
-# 02-2 · Notation: Sets, Domains, and Basic Statistics
+# Notation: Sets, Domains, and Basic Statistics
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }

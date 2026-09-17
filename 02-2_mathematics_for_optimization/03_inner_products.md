@@ -1,4 +1,4 @@
-# 02-2 · Part 2: Inner Products
+# Inner Products
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }

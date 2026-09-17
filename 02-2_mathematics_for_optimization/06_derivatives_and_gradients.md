@@ -1,4 +1,4 @@
-# 02-2 · Part 5: Derivatives and Gradients
+# Derivatives and Gradients
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }

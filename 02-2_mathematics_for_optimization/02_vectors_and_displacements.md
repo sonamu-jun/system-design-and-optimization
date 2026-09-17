@@ -1,4 +1,4 @@
-# 02-2 · Part 1: Vectors and Displacements
+# Vectors and Displacements
 
 <style>
 table { margin-left: 0 !important; margin-right: auto !important; }
