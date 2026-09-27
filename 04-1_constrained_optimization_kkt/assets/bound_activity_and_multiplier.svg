@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="344" viewBox="0 0 512 344" role="img" aria-labelledby="title description">
+<title id="title">An active bound can have a zero multiplier</title><desc id="description">Three lines show the same calibrated clock under limits 1, 1.5, and 2. The selected corrections are 1, 1.5, and 1.5. Their inequality multipliers are 6, 0, and 0. An orange dot marks the selected correction; teal shows allowed corrections in the view.</desc>
+<rect width="512" height="344" fill="#fff"/>
+<defs>
+<marker id="teal" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#177b70"/></marker>
+<marker id="gray" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#697582"/></marker>
+</defs><g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#253c4c">
+<text x="16" y="27" fill="#253c4c" text-anchor="start">Limit: 1.0 min</text>
+<text x="496" y="27" fill="#177b70" text-anchor="end">μ = 6 · active</text>
+<path d="M 44 61 L 476 61" fill="none" stroke="#697582" stroke-width="2"/>
+<path d="M 44 61 L 184.0 61" fill="none" stroke="#177b70" stroke-width="3"/>
+<path d="M 46 61 L 30 61" fill="none" stroke="#177b70" stroke-width="2" marker-end="url(#teal)"/>
+<path d="M 184.0 46 L 184.0 76" fill="none" stroke="#177b70" stroke-width="2"/>
+<path d="M 44.0 62 L 44.0 67" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="44.0" y="88" fill="#253c4c" text-anchor="middle">0.5</text>
+<path d="M 184.0 62 L 184.0 67" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="184.0" y="88" fill="#253c4c" text-anchor="middle">1.0</text>
+<path d="M 324.0 62 L 324.0 67" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="324.0" y="88" fill="#253c4c" text-anchor="middle">1.5</text>
+<path d="M 464.0 62 L 464.0 67" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="464.0" y="88" fill="#253c4c" text-anchor="middle">2.0</text>
+<circle cx="184.0" cy="61" r="6" fill="#b86522"/>
+<path d="M 319.0 56 L 329.0 66 M 319.0 66 L 329.0 56" fill="none" stroke="#697582" stroke-width="2"/>
+<text x="16" y="127" fill="#253c4c" text-anchor="start">Limit: 1.5 min</text>
+<text x="496" y="127" fill="#177b70" text-anchor="end">μ = 0 · active</text>
+<path d="M 44 161 L 476 161" fill="none" stroke="#697582" stroke-width="2"/>
+<path d="M 44 161 L 324.0 161" fill="none" stroke="#177b70" stroke-width="3"/>
+<path d="M 46 161 L 30 161" fill="none" stroke="#177b70" stroke-width="2" marker-end="url(#teal)"/>
+<path d="M 324.0 146 L 324.0 176" fill="none" stroke="#177b70" stroke-width="2"/>
+<path d="M 44.0 162 L 44.0 167" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="44.0" y="188" fill="#253c4c" text-anchor="middle">0.5</text>
+<path d="M 184.0 162 L 184.0 167" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="184.0" y="188" fill="#253c4c" text-anchor="middle">1.0</text>
+<path d="M 324.0 162 L 324.0 167" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="324.0" y="188" fill="#253c4c" text-anchor="middle">1.5</text>
+<path d="M 464.0 162 L 464.0 167" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="464.0" y="188" fill="#253c4c" text-anchor="middle">2.0</text>
+<circle cx="324.0" cy="161" r="6" fill="#b86522"/>
+<text x="16" y="227" fill="#253c4c" text-anchor="start">Limit: 2.0 min</text>
+<text x="496" y="227" fill="#177b70" text-anchor="end">μ = 0 · inactive</text>
+<path d="M 44 261 L 476 261" fill="none" stroke="#697582" stroke-width="2"/>
+<path d="M 44 261 L 464.0 261" fill="none" stroke="#177b70" stroke-width="3"/>
+<path d="M 46 261 L 30 261" fill="none" stroke="#177b70" stroke-width="2" marker-end="url(#teal)"/>
+<path d="M 464.0 246 L 464.0 276" fill="none" stroke="#177b70" stroke-width="2"/>
+<path d="M 44.0 262 L 44.0 267" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="44.0" y="288" fill="#253c4c" text-anchor="middle">0.5</text>
+<path d="M 184.0 262 L 184.0 267" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="184.0" y="288" fill="#253c4c" text-anchor="middle">1.0</text>
+<path d="M 324.0 262 L 324.0 267" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="324.0" y="288" fill="#253c4c" text-anchor="middle">1.5</text>
+<path d="M 464.0 262 L 464.0 267" fill="none" stroke="#253c4c" stroke-width="1"/>
+<text x="464.0" y="288" fill="#253c4c" text-anchor="middle">2.0</text>
+<circle cx="324.0" cy="261" r="6" fill="#b86522"/>
+<text x="256" y="332" fill="#253c4c" text-anchor="middle">Correction q (min); calibration keeps r = 1 − q</text>
+</g></svg>

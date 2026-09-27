@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="300" viewBox="0 0 512 300" role="img" aria-labelledby="title description">
+<title id="title">Only an allowed improvement can be accepted</title><desc id="description">From correction 1 and rate 0 with score 2, a move to correction 1.1 and rate minus 0.1 is feasible with score 1.46. A move to correction 1 and rate minus 0.1 has score 1.54 but violates exact calibration.</desc>
+<rect width="512" height="300" fill="#fff"/>
+<defs>
+<marker id="teal" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#177b70"/></marker>
+<marker id="gray" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#697582"/></marker>
+</defs><g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#253c4c">
+<rect x="16" y="106" width="148" height="92" rx="7" fill="#fff0e4" stroke="#b86522"/>
+<text x="90" y="132" fill="#b86522" text-anchor="middle">q = 1.0, r = 0</text>
+<text x="90" y="158" fill="#253c4c" text-anchor="middle">Score: 2.00</text>
+<text x="90" y="183" fill="#253c4c" text-anchor="middle">h = 0</text>
+<path d="M 168 136 L 260 79" fill="none" stroke="#177b70" stroke-width="2" marker-end="url(#teal)"/>
+<path d="M 168 169 L 260 231" fill="none" stroke="#697582" stroke-width="2" marker-end="url(#gray)"/>
+<rect x="272" y="22" width="224" height="112" rx="7" fill="#e6f4ef" stroke="#177b70"/>
+<text x="288" y="50" fill="#177b70" text-anchor="start">q = 1.1, r = −0.1</text>
+<text x="288" y="77" fill="#253c4c" text-anchor="start">Score: 1.46 min²</text>
+<text x="288" y="111" fill="#177b70" text-anchor="start">h = 0 · feasible</text>
+<rect x="272" y="174" width="224" height="112" rx="7" fill="#f3f6f8" stroke="#697582"/>
+<text x="288" y="202" fill="#697582" text-anchor="start">q = 1.0, r = −0.1</text>
+<text x="288" y="229" fill="#697582" text-anchor="start">Score: 1.54 min²</text>
+<text x="288" y="263" fill="#697582" text-anchor="start">h = −0.1 · reject</text>
+</g></svg>

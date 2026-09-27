@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="282" viewBox="0 0 512 282" role="img" aria-labelledby="title description">
+<title id="title">The same score can have different slopes</title><desc id="description">At correction 1.5, rate minus 0.5, and multiplier 2, the residual is zero. The Lagrangian value remains 0.5. For both numerical settings, adding constraint slope 2 to objective slope minus 2 yields Lagrangian slope zero.</desc>
+<rect width="512" height="282" fill="#fff"/>
+<defs>
+<marker id="teal" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#177b70"/></marker>
+<marker id="gray" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#697582"/></marker>
+</defs><g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#253c4c">
+<text x="16" y="25" fill="#253c4c" text-anchor="start">At q = 1.5, r = −0.5, ν = 2</text>
+<rect x="16" y="42" width="140" height="46" rx="7" fill="#f3f6f8" stroke="none"/>
+<text x="86" y="71" fill="#286d9b" text-anchor="middle">φ = 0.5</text>
+<rect x="186" y="42" width="140" height="46" rx="7" fill="#f3f6f8" stroke="none"/>
+<text x="256" y="71" fill="#177b70" text-anchor="middle">νh = 0</text>
+<rect x="356" y="42" width="140" height="46" rx="7" fill="#f3f6f8" stroke="none"/>
+<text x="426" y="71" fill="#253c4c" text-anchor="middle">L = 0.5</text>
+<text x="171" y="71" fill="#253c4c" text-anchor="middle">+</text>
+<text x="341" y="71" fill="#253c4c" text-anchor="middle">=</text>
+<text x="16" y="128" fill="#253c4c" text-anchor="start">Slope</text>
+<text x="180" y="128" fill="#286d9b" text-anchor="middle">Objective</text>
+<text x="310" y="128" fill="#177b70" text-anchor="middle">Added νh</text>
+<text x="440" y="128" fill="#253c4c" text-anchor="middle">Lagrangian</text>
+<rect x="16" y="139" width="480" height="40" rx="7" fill="#f3f6f8" stroke="none"/>
+<text x="32" y="165" fill="#253c4c" text-anchor="start">q</text>
+<text x="180" y="165" fill="#286d9b" text-anchor="middle">−2</text>
+<text x="245" y="165" fill="#253c4c" text-anchor="middle">+</text>
+<text x="310" y="165" fill="#177b70" text-anchor="middle">2</text>
+<text x="375" y="165" fill="#253c4c" text-anchor="middle">=</text>
+<text x="440" y="165" fill="#177b70" text-anchor="middle">0</text>
+<rect x="16" y="191" width="480" height="40" rx="7" fill="#f3f6f8" stroke="none"/>
+<text x="32" y="217" fill="#253c4c" text-anchor="start">r</text>
+<text x="180" y="217" fill="#286d9b" text-anchor="middle">−2</text>
+<text x="245" y="217" fill="#253c4c" text-anchor="middle">+</text>
+<text x="310" y="217" fill="#177b70" text-anchor="middle">2</text>
+<text x="375" y="217" fill="#253c4c" text-anchor="middle">=</text>
+<text x="440" y="217" fill="#177b70" text-anchor="middle">0</text>
+<text x="256" y="269" fill="#253c4c" text-anchor="middle">Same score on h = 0; different slopes.</text>
+</g></svg>
