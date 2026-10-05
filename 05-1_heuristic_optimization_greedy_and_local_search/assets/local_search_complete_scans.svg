@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="290" viewBox="0 0 512 290" role="img" aria-labelledby="title description">
+<title id="title">Two improving moves and one final scan</title>
+<desc id="description">At current distance 22 the five neighbor distances are 35, 30, 24, 22, 21; accept 21. At 21 they are 31, 33, 20, 25, 22; accept 20. At 20 they are 30, 33, 21, 24, 22; stop because none improves 20.</desc>
+<rect width="512" height="290" fill="#fff"/>
+<defs>
+  <marker id="arrow-blue" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#286d9b"/></marker>
+  <marker id="arrow-gray" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#697582"/></marker>
+  <marker id="arrow-orange" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#b86522"/></marker>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#253c4c">
+<rect x="8" y="6" width="154" height="274" rx="7" fill="#fff" stroke="#dce5ea"/>
+<text x="85" y="28" fill="#697582" text-anchor="middle" font-weight="normal">Scan 1</text>
+<rect x="18" y="41" width="134" height="34" rx="7" fill="#fff0e4" stroke="none"/>
+<text x="85" y="64" fill="#b86522" text-anchor="middle" font-weight="normal">Current: 22</text>
+<text x="85" y="99" fill="#253c4c" text-anchor="middle" font-weight="normal">Neighbors</text>
+<rect x="52" y="110" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="85" y="126" fill="#253c4c" text-anchor="middle" font-weight="normal">35</text>
+<rect x="52" y="134" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="85" y="150" fill="#253c4c" text-anchor="middle" font-weight="normal">30</text>
+<rect x="52" y="158" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="85" y="174" fill="#253c4c" text-anchor="middle" font-weight="normal">24</text>
+<rect x="52" y="182" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="85" y="198" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<rect x="52" y="206" width="66" height="22" rx="4" fill="#e6f4ef" stroke="#177b70"/>
+<text x="85" y="222" fill="#177b70" text-anchor="middle" font-weight="normal">21</text>
+<text x="85" y="262" fill="#177b70" text-anchor="middle" font-weight="normal">Accept 21</text>
+<path d="M 164 58 L 176 58" fill="none" stroke="#286d9b" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<rect x="178" y="6" width="154" height="274" rx="7" fill="#fff" stroke="#dce5ea"/>
+<text x="255" y="28" fill="#697582" text-anchor="middle" font-weight="normal">Scan 2</text>
+<rect x="188" y="41" width="134" height="34" rx="7" fill="#fff0e4" stroke="none"/>
+<text x="255" y="64" fill="#b86522" text-anchor="middle" font-weight="normal">Current: 21</text>
+<text x="255" y="99" fill="#253c4c" text-anchor="middle" font-weight="normal">Neighbors</text>
+<rect x="222" y="110" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="255" y="126" fill="#253c4c" text-anchor="middle" font-weight="normal">31</text>
+<rect x="222" y="134" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="255" y="150" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="222" y="158" width="66" height="22" rx="4" fill="#e6f4ef" stroke="#177b70"/>
+<text x="255" y="174" fill="#177b70" text-anchor="middle" font-weight="normal">20</text>
+<rect x="222" y="182" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="255" y="198" fill="#253c4c" text-anchor="middle" font-weight="normal">25</text>
+<rect x="222" y="206" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="255" y="222" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<text x="255" y="262" fill="#177b70" text-anchor="middle" font-weight="normal">Accept 20</text>
+<path d="M 334 58 L 346 58" fill="none" stroke="#286d9b" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<rect x="348" y="6" width="154" height="274" rx="7" fill="#fff" stroke="#dce5ea"/>
+<text x="425" y="28" fill="#697582" text-anchor="middle" font-weight="normal">Scan 3</text>
+<rect x="358" y="41" width="134" height="34" rx="7" fill="#fff0e4" stroke="none"/>
+<text x="425" y="64" fill="#b86522" text-anchor="middle" font-weight="normal">Current: 20</text>
+<text x="425" y="99" fill="#253c4c" text-anchor="middle" font-weight="normal">Neighbors</text>
+<rect x="392" y="110" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="425" y="126" fill="#253c4c" text-anchor="middle" font-weight="normal">30</text>
+<rect x="392" y="134" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="425" y="150" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="392" y="158" width="66" height="22" rx="4" fill="#f3f6f8" stroke="#286d9b"/>
+<text x="425" y="174" fill="#253c4c" text-anchor="middle" font-weight="normal">21</text>
+<rect x="392" y="182" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="425" y="198" fill="#253c4c" text-anchor="middle" font-weight="normal">24</text>
+<rect x="392" y="206" width="66" height="22" rx="4" fill="#f3f6f8" stroke="none"/>
+<text x="425" y="222" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<text x="425" y="262" fill="#253c4c" text-anchor="middle" font-weight="normal">Stop: 21 &gt; 20</text>
+</g>
+</svg>

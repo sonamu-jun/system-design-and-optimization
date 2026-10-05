@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="304" viewBox="0 0 512 304" role="img" aria-labelledby="title description">
+<title id="title">All 24 tours with city 2 fixed as the written start</title>
+<desc id="description">Each tile is the total distance of one enumerated complete tour. Sorted distances range from 20 to 35. Two reversed tours attain the minimum distance 20.</desc>
+<rect width="512" height="304" fill="#fff"/>
+<defs>
+  <marker id="arrow-blue" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#286d9b"/></marker>
+  <marker id="arrow-gray" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#697582"/></marker>
+  <marker id="arrow-orange" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 8 4 L 0 8 Z" fill="#b86522"/></marker>
+</defs>
+<g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#253c4c">
+<circle cx="34" cy="30" r="17" fill="#fff" stroke="#286d9b" stroke-width="1.8"/>
+<text x="34" y="35" fill="#286d9b" text-anchor="middle" font-weight="normal">2</text>
+<text x="70" y="35" fill="#253c4c" text-anchor="start" font-weight="normal">4 × 3 × 2 × 1 = 24 complete tours</text>
+<rect x="16" y="68" width="64" height="36" rx="7" fill="#e6f4ef" stroke="#177b70"/>
+<text x="48" y="92" fill="#177b70" text-anchor="middle" font-weight="normal">20</text>
+<rect x="96" y="68" width="64" height="36" rx="7" fill="#e6f4ef" stroke="#177b70"/>
+<text x="128" y="92" fill="#177b70" text-anchor="middle" font-weight="normal">20</text>
+<rect x="176" y="68" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="208" y="92" fill="#253c4c" text-anchor="middle" font-weight="normal">21</text>
+<rect x="256" y="68" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="288" y="92" fill="#253c4c" text-anchor="middle" font-weight="normal">21</text>
+<rect x="336" y="68" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="368" y="92" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<rect x="416" y="68" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="448" y="92" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<rect x="16" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="48" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<rect x="96" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="128" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">22</text>
+<rect x="176" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="208" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">24</text>
+<rect x="256" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="288" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">24</text>
+<rect x="336" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="368" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">25</text>
+<rect x="416" y="116" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="448" y="140" fill="#253c4c" text-anchor="middle" font-weight="normal">25</text>
+<rect x="16" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="48" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">30</text>
+<rect x="96" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="128" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">30</text>
+<rect x="176" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="208" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">31</text>
+<rect x="256" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="288" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">31</text>
+<rect x="336" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="368" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="416" y="164" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="448" y="188" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="16" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="48" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="96" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="128" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">33</text>
+<rect x="176" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="208" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">34</text>
+<rect x="256" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="288" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">34</text>
+<rect x="336" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="368" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">35</text>
+<rect x="416" y="212" width="64" height="36" rx="7" fill="#f3f6f8" stroke="#dce5ea"/>
+<text x="448" y="236" fill="#253c4c" text-anchor="middle" font-weight="normal">35</text>
+<text x="256" y="284" fill="#177b70" text-anchor="middle" font-weight="normal">Smallest total distance: 20</text>
+</g>
+</svg>
