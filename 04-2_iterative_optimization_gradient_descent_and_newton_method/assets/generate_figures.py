@@ -109,6 +109,23 @@ ax.legend(loc="upper right", framealpha=1)
 ax.grid(alpha=0.25)
 save(fig, "clock_update_paths")
 
+fig, ax = plt.subplots(figsize=(5.2, 3.9))
+contours = ax.contour(q, r, scores, levels=[0.3, 0.6, 1, 2, 4, 6, 10],
+                     colors=GRAY, linewidths=0.8, alpha=0.5)
+ax.clabel(contours, levels=[0.6, 2, 6], fontsize=10, fmt="%g")
+ax.plot(path[:, 0], path[:, 1], "o-", color=BLUE, markersize=3,
+        label="Gradient descent: 18 updates")
+ax.scatter([1.9], [-0.6], color=TEAL, marker="D", s=40, zorder=5)
+ax.annotate("Start", (0, 0), (0.05, -0.18))
+ax.annotate("First update: (0.4, 0.3)", (0.4, 0.3), (0.58, 0.48),
+            arrowprops={"arrowstyle": "->", "color": BLUE})
+ax.annotate("(1.9, −0.6)", (1.9, -0.6), (1.22, -0.78))
+ax.set(xlabel="Initial correction q (min)", ylabel="Rate correction r (min/h)",
+       xlim=(-0.15, 2.25), ylim=(-0.85, 0.75))
+ax.legend(loc="upper right", framealpha=1)
+ax.grid(alpha=0.25)
+save(fig, "gradient_update_path")
+
 fig, ax = plt.subplots(figsize=(5.2, 2.9))
 ax.set_xlim(0, 1)
 ax.set_ylim(0, 1)
@@ -127,4 +144,4 @@ for y, color, left, right, value in rows:
 fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
 save(fig, "stopping_conditions", manual=True)
 
-print("Generated five compact clock figures in", DEST)
+print("Generated six compact clock figures in", DEST)
