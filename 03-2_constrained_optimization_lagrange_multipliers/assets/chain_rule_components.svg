@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="190" viewBox="0 0 512 190" role="img" aria-labelledby="title description">
+<title id="title">The target changes the score through two settings</title>
+<desc id="description">Beta changes q star and r star, which both change V. Multiply the derivatives along each path and add the two contributions.</desc>
+<rect width="512" height="190" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#707070"/></marker></defs>
+<g fill="none" stroke="#707070" stroke-width="1.5" marker-end="url(#arrow)">
+<path d="M72 86 L209 43"/><path d="M72 104 L209 147"/>
+<path d="M303 43 L432 86"/><path d="M303 147 L432 104"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" fill="#253c4c">
+<rect x="16" y="72" width="56" height="46" rx="6" fill="#f3f6f8"/>
+<rect x="209" y="19" width="94" height="46" rx="6" fill="#eaf3fa"/>
+<rect x="209" y="125" width="94" height="46" rx="6" fill="#eaf3fa"/>
+<rect x="436" y="72" width="64" height="46" rx="6" fill="#f3f6f8"/>
+<text x="44" y="101">β</text>
+<text x="256" y="48" fill="#2878b5">q*(β)</text>
+<text x="256" y="154" fill="#2878b5">r*(β)</text>
+<text x="468" y="101">V(β)</text>
+<text x="133" y="43">dq*/dβ</text><text x="133" y="168">dr*/dβ</text>
+<text x="375" y="43">∂φ/∂q</text><text x="375" y="168">∂φ/∂r</text>
+</g>
+</svg>
