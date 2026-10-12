@@ -42,7 +42,7 @@ ax.scatter([0, 0.4, 1], [6, 3.44, 2], c=[BLUE, ORANGE, TEAL], zorder=4)
 ax.annotate("Start: (0, 6)", (0, 6), (0.16, 6.3))
 ax.annotate("After one update", (0.4, 3.44), (0.66, 4.7),
             arrowprops={"arrowstyle": "->", "color": ORANGE})
-ax.annotate("Minimum: (1, 2)", (1, 2), (1.04, 2.6))
+ax.annotate("Minimum: (1, 2)", (1, 2), (1.08, 1.2))
 ax.annotate("", (0.4, 1.35), (0, 1.35),
             arrowprops={"arrowstyle": "->", "color": ORANGE, "lw": 2})
 ax.text(0.2, 0.9, "+0.4 min", ha="center", color=ORANGE)
