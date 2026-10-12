@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="304" viewBox="0 0 520 304" role="img">
+<title>Active bounds can have positive or zero multipliers; slack makes the multiplier zero.</title>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="DejaVu Sans, sans-serif" font-size="14" fill="#243344">
+<text x="16" y="24" fill="#168578" text-anchor="start">Active: μ = 6</text>
+<text x="496" y="24" fill="#707070" text-anchor="end">Limit = 1</text>
+<line x1="100" y1="48" x2="488" y2="48" stroke="#d7dfe7" stroke-width="4" />
+<line x1="104" y1="48" x2="280" y2="48" stroke="#168578" stroke-width="4" />
+<line x1="112" y1="48" x2="98" y2="48" stroke="#168578" stroke-width="3" />
+<path d="M 106,43 L 98,48 L 106,53" fill="none" stroke="#168578" stroke-width="2"/>
+<line x1="280" y1="39" x2="280" y2="57" stroke="#707070" stroke-width="2" />
+<path d="M 280,42 l 6,6 -6,6 -6,-6 Z" fill="#168578" stroke="white" stroke-width="1"/>
+<text x="280" y="77" fill="#168578" text-anchor="middle">q* = 1</text>
+<text x="16" y="112" fill="#168578" text-anchor="start">Active: μ = 0</text>
+<text x="496" y="112" fill="#707070" text-anchor="end">Limit = 1.5</text>
+<line x1="100" y1="136" x2="488" y2="136" stroke="#d7dfe7" stroke-width="4" />
+<line x1="104" y1="136" x2="368.0" y2="136" stroke="#168578" stroke-width="4" />
+<line x1="112" y1="136" x2="98" y2="136" stroke="#168578" stroke-width="3" />
+<path d="M 106,131 L 98,136 L 106,141" fill="none" stroke="#168578" stroke-width="2"/>
+<line x1="368.0" y1="127" x2="368.0" y2="145" stroke="#707070" stroke-width="2" />
+<path d="M 368.0,130 l 6,6 -6,6 -6,-6 Z" fill="#168578" stroke="white" stroke-width="1"/>
+<text x="368.0" y="165" fill="#168578" text-anchor="middle">q* = 1.5</text>
+<text x="16" y="200" fill="#168578" text-anchor="start">Inactive: μ = 0</text>
+<text x="496" y="200" fill="#707070" text-anchor="end">Limit = 2</text>
+<line x1="100" y1="224" x2="488" y2="224" stroke="#d7dfe7" stroke-width="4" />
+<line x1="104" y1="224" x2="456" y2="224" stroke="#168578" stroke-width="4" />
+<line x1="112" y1="224" x2="98" y2="224" stroke="#168578" stroke-width="3" />
+<path d="M 106,219 L 98,224 L 106,229" fill="none" stroke="#168578" stroke-width="2"/>
+<line x1="456" y1="215" x2="456" y2="233" stroke="#707070" stroke-width="2" />
+<path d="M 368.0,218 l 6,6 -6,6 -6,-6 Z" fill="#168578" stroke="white" stroke-width="1"/>
+<text x="368.0" y="253" fill="#168578" text-anchor="middle">q* = 1.5</text>
+<line x1="374.0" y1="212" x2="454" y2="212" stroke="#707070" stroke-width="1.5" />
+<text x="412.0" y="204" fill="#707070" text-anchor="middle">0.5</text>
+<text x="16" y="290" fill="#168578" text-anchor="start">◆ best allowed</text>
+<text x="496" y="290" fill="#707070" text-anchor="end">Correction q (min)</text>
+</g></svg>
