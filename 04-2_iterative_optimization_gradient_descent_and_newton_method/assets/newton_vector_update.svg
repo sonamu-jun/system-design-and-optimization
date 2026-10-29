@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" role="img" aria-label="Vector Newton update">
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L6 3.5 L0 7" fill="none" stroke="#1680ff"/></marker></defs>
+<rect width="360" height="235" fill="white"/>
+<g fill="none" stroke="#1680ff" stroke-width="1.5" marker-end="url(#arrow)"><path d="M160 37 L160 58"/><path d="M160 96 L160 117"/><path d="M160 155 L160 176"/></g>
+<g font-family="DejaVu Sans, sans-serif" font-size="16" text-anchor="middle">
+<text x="160" y="28" fill="#1680ff">Current decision: 𝐱ₖ</text>
+<text x="160" y="83">Compute ∇f(𝐱ₖ) and Cₖ</text>
+<text x="160" y="143" fill="#d96b12">Solve Cₖ Δ𝐱ₖ = −∇f(𝐱ₖ)</text>
+<text x="160" y="202" fill="#1680ff">𝐱ₖ₊₁ = 𝐱ₖ + Δ𝐱ₖ</text>
+</g></svg>
