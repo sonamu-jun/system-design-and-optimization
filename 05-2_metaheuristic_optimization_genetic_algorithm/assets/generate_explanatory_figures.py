@@ -75,20 +75,20 @@ def create_figures():
     figure.save("genetic_algorithm_overview.svg")
 
     figure = Diagram(208)
-    figure.text(220, 23, "tournament_size = 2", PURPLE)
-    figure.text(85, 51, "Population", BLUE)
+    figure.text(220, 23, "selection_top_k = 2", PURPLE)
+    figure.text(85, 51, "Ranked population", BLUE)
     figure.box(12, 64, 145, 128, BLUE)
     for i, label in enumerate(["A: 4", "B: 3", "C: 2", "D: 1"]):
-        figure.text(84, 89 + i*29, label, GREEN if i in (1,3) else GRAY)
+        figure.text(84, 89 + i*29, label, GREEN if i in (0,1) else GRAY)
     figure.line(165, 128, 198, 128, GREEN, arrow=True)
-    figure.text(270, 51, "Sample", GREEN)
+    figure.text(270, 51, "Top 2", GREEN)
     figure.box(206, 64, 128, 90, GREEN)
-    figure.text(270, 91, "B: 3", GREEN)
-    figure.text(270, 128, "D: 1", GRAY)
+    figure.text(270, 91, "A: 4", GREEN)
+    figure.text(270, 128, "B: 3", GREEN)
     figure.line(342, 100, 366, 100, GREEN, arrow=True)
     figure.text(399, 84, "Pick", GREEN)
     figure.text(399, 113, "B", GREEN)
-    figure.text(270, 183, "Higher score wins")
+    figure.text(270, 183, "Random choice from top 2")
     figure.save("selection.svg")
 
     figure = Diagram(223)
@@ -129,22 +129,26 @@ def create_figures():
         figure.text(340, 129+i*31, "New child", ORANGE)
     figure.save("elitism.svg")
 
-    figure = Diagram(352)
+    figure = Diagram(398)
     figure.box(105, 6, 230, 34, BLUE)
     figure.text(220, 29, "Start with candidates", BLUE)
-    figure.line(220, 44, 220, 75, GRAY, arrow=True)
-    figure.box(45, 68, 350, 226, GRAY)
-    figure.text(220, 94, "Repeat generations times", PURPLE)
-    for y, label, color in [(110, "Keep the best", BLUE),
-                             (174, "Fill with new children", ORANGE),
-                             (238, "Replace the population", BLUE)]:
-        figure.box(85, y, 270, 34, color)
-        figure.text(220, y+23, label, color)
-        if y < 238:
-            figure.line(220, y+38, 220, y+57, GRAY, arrow=True)
-    figure.line(220, 297, 220, 312, GRAY, arrow=True)
-    figure.box(105, 315, 230, 33, BLUE)
-    figure.text(220, 338, "Return the best", BLUE)
+    figure.line(220, 44, 220, 64, GRAY, arrow=True)
+    figure.box(25, 65, 390, 280, GRAY)
+    figure.text(220, 89, "Repeat generations times", PURPLE)
+    steps = [(103, "Rank by score; keep elites", BLUE),
+             (162, "Selection: choose from top k", GREEN),
+             (221, "Crossover + mutation → child", ORANGE),
+             (300, "Replace the population", BLUE)]
+    for y, label, color in steps:
+        figure.box(60, y, 320, 32, color)
+        figure.text(220, y+22, label, color)
+    figure.line(220, 138, 220, 158, GRAY, arrow=True)
+    figure.line(220, 197, 220, 217, GRAY, arrow=True)
+    figure.text(220, 277, "Repeat until the next population is full")
+    figure.line(220, 281, 220, 296, GRAY, arrow=True)
+    figure.line(220, 349, 220, 361, GRAY, arrow=True)
+    figure.box(105, 364, 230, 32, BLUE)
+    figure.text(220, 386, "Return the best", BLUE)
     figure.save("generation_cycle.svg")
 
     figure = Diagram(152)
