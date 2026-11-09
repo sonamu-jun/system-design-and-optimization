@@ -74,20 +74,21 @@ def create_figures():
     figure.text(220, 187, "Next candidates: keep the best + add new ones")
     figure.save("genetic_algorithm_overview.svg")
 
-    figure = Diagram(218)
+    figure = Diagram(208)
     figure.text(220, 23, "selection_top_k = 2", PURPLE)
-    figure.text(99, 54, "Ranked population", BLUE)
-    figure.box(15, 65, 170, 140, BLUE)
-    for i, label in enumerate(["1. A: 4", "2. B: 3", "3. C: 2", "4. D: 1"]):
-        figure.text(99, 91 + i*32, label, GREEN if i < 2 else GRAY)
-    figure.line(195, 112, 227, 112, GREEN, arrow=True)
-    figure.text(330, 54, "Keep ranks 1–2", GREEN)
-    figure.box(237, 65, 185, 65, GREEN)
-    figure.text(330, 91, "1st: A", GREEN)
-    figure.text(330, 116, "2nd: B", GREEN)
-    figure.text(330, 157, "Parent order", BLUE)
-    figure.text(330, 184, "A → B → A → B", GREEN)
-    figure.text(330, 208, "Repeat in rank order")
+    figure.text(85, 51, "Ranked population", BLUE)
+    figure.box(12, 64, 145, 128, BLUE)
+    for i, label in enumerate(["A: 4", "B: 3", "C: 2", "D: 1"]):
+        figure.text(84, 89 + i*29, label, GREEN if i in (0,1) else GRAY)
+    figure.line(165, 128, 198, 128, GREEN, arrow=True)
+    figure.text(270, 51, "Top 2", GREEN)
+    figure.box(206, 64, 128, 90, GREEN)
+    figure.text(270, 91, "A: 4", GREEN)
+    figure.text(270, 128, "B: 3", GREEN)
+    figure.line(342, 100, 366, 100, GREEN, arrow=True)
+    figure.text(399, 84, "Pick", GREEN)
+    figure.text(399, 113, "B", GREEN)
+    figure.text(270, 183, "Random choice from top 2")
     figure.save("selection.svg")
 
     figure = Diagram(223)
@@ -135,7 +136,7 @@ def create_figures():
     figure.box(25, 65, 390, 280, GRAY)
     figure.text(220, 89, "Repeat generations times", PURPLE)
     steps = [(103, "Rank by score; keep elites", BLUE),
-             (162, "Selection: cycle through top k", GREEN),
+             (162, "Selection: choose from top k", GREEN),
              (221, "Crossover + mutation → child", ORANGE),
              (300, "Replace the population", BLUE)]
     for y, label, color in steps:
