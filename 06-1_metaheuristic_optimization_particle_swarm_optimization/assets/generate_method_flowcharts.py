@@ -47,32 +47,8 @@ def loop(name,evaluation,result):
     s+=box(401,result,fill='#eaf5f0',color=TEAL)
     save(name,472,s)
 
-def economics():
-    s=box(16,['허용 후보 평가·속도 난수 설정','pbest·gbest 설정'],fill='#eef4fa')
-    s+=arrow([(220,68),(220,86)])
-    s+=box(86,['입자 이동·범위 처리','0·1 선택으로 변환'])
-    s+=arrow([(220,138),(220,158)])
-    s+=diamond(158,'비용 ≤ 예산 7?')
-    s+=arrow([(120,189),(102,189),(102,249)])+text(81,220,'아니요',GRAY)
-    s+=arrow([(320,189),(338,189),(338,249)])+text(356,220,'예',TEAL)
-    s+=box(249,['평가값 ∞','최선 기록 제외'],fill='#f1f3f5',color=GRAY,x=24,width=156)
-    s+=box(249,['순편익의 음수','작을수록 좋음'],fill='#eaf5f0',color=TEAL,x=260,width=156)
-    s+=arrow([(102,301),(102,323),(220,323),(220,343)])
-    s+=arrow([(338,301),(338,323),(220,323)])
-    s+=box(343,['더 좋은 허용 후보만 갱신','모든 pbest에서 gbest 선택'])
-    s+=arrow([(220,395),(220,413)])
-    s+=diamond(413,'횟수 한도 도달?')
-    s+=arrow([(120,444),(10,444),(10,112),(74,112)])
-    s+=text(74,433,'아니요',GRAY)
-    s+=arrow([(220,475),(220,507)])+text(242,497,'예',TEAL)
-    s+=box(507,['gbest를 사업 선택으로 변환','비용·순편익 반환'],fill='#eaf5f0',color=TEAL)
-    save('economics_flow',578,s)
-
 def generate():
     loop('pso_method_flow',['목적함수값 계산'],['전역 최적 위치 gbest와','목적함수값 반환'])
-    loop('biology_flow',['0·1·2 단계로 변환','표에서 생장량 조회 → 음수'],['gbest를 단계로 변환','조명·양액과 생장량 반환'])
-    economics()
-    loop('assignment_flow',['0·1 배정으로 변환','두 컴퓨터의 부하 중 큰 값'],['gbest를 컴퓨터 배정으로 변환','배정·부하·완료 시간 반환'])
 
 if __name__=='__main__':
     generate()
